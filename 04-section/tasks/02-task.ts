@@ -20,7 +20,7 @@ enum paymentType {
     detiveryTime?: string;
     paymentType: paymentType;
     ordersCount: number;
-    discountPersent: number;
+    discountPercent: number;
     currency: "EUR" | "USD" | "RUB";
   }
   
