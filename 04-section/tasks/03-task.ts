@@ -7,6 +7,6 @@ interface ICar {
     model: string;
     hp: number;
     registrationNumber: string;
-    ovnerName: string;
+    ownerName: string;
   }
   
