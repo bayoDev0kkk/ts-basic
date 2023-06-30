@@ -6,9 +6,9 @@ function calc(action, a, b) {
       return a + b;
     case "subtraction":
       return a - b;
-    case "subtraction":
+    case "multiplication":
       return a * b;
-    case "subtraction":
+    case "division":
       if (b === 0) return 0;
       return a / b;
     default:
