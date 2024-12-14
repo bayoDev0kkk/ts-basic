@@ -22,3 +22,5 @@ interface IShop {
     address: IShop["address"];
   };
   
+  type IShopListItem1 = Omit<IShop, Exclude<keyof IShop, keyof IShopListItem>>;
+  type IShopListItem2 = Pick<IShop, keyof IShopListItem>;

@@ -1,0 +1,18 @@
+{
+  "name": "tsbasic",
+  "version": "1.0.0",
+  "description": "В этой теме вы познакомитесь с [typescript](https://www.typescriptlang.org/)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.it-mentor.tech/fe-core/typescript-core/ts-basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

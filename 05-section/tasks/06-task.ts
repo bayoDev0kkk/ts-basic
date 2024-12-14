@@ -5,8 +5,10 @@ interface IPerson {
     readonly hometown: string;
     isMarried: boolean;
   }
+
+  type Writable<T> = { -readonly [P in keyof T]: T[P] };
   
-  const somePerson: IPerson = {
+  const somePerson: Writable<IPerson> = {
     firstName: "Антон",
     lastName: "Иванов",
     age: 33,
