@@ -1,4 +1,5 @@
 # Каждому по печеньке
+
 Поделимся печенькой с другом?
 
 ## Задание
@@ -23,4 +24,7 @@ One for you, one for me.
 | Bob    | One for Bob, one for me.    |
 | -      | One for you, one for me.    |
 | Zaphod | One for Zaphod, one for me. |
-	
+
+function whoIsPaying(name?: string): string {
+    return `One for ${name || 'you'}, one for me.`;
+}
